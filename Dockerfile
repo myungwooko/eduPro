@@ -1,5 +1,5 @@
 FROM python:3.7
-LABEL Myungwoo Ko <mwk@fount.co>
+LABEL Myungwoo Ko
 
 ADD ./requirements.txt /webapp/server/requirements.txt
 
