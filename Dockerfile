@@ -1,5 +1,5 @@
 FROM python:3.7
-LABEL Myungwoo Ko
+LABEL Ryan Ko
 
 ADD ./requirements.txt /webapp/server/requirements.txt
 
@@ -17,7 +17,7 @@ ENV NGINX_SET_REAL_IP_FROM="172.18.0.0/16"\
     UWSGI_SOCKET="/webapp/uwsgi/webapp.sock"\
     UWSGI_PID="/webapp/uwsgi/webapp.pid"\
     UWSGI_CHDIR="/webapp/server/tenbyten"\
-    UWSGI_MODULE="tenbyten.wsgi"\
+    UWSGI_MODULE="eduPro.wsgi"\
     RUNNING_ENV="development"
 
 RUN mv ./conf/run.sh / \
@@ -28,6 +28,6 @@ RUN mv ./conf/run.sh / \
 
 EXPOSE 80 443
 
-WORKDIR /webapp/server/tenbyten
+WORKDIR /webapp/server/eduPro
 
 CMD ["/run.sh"]
