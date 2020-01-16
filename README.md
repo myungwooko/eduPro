@@ -84,7 +84,7 @@ When container was created properly, type the server address in your browser
 Document fot API is automatically created through Swagger.
 
 Swagger API documentation's address is `/api/swagger`.
-> 예) /api/swagger
+> Ex) /api/swagger
 
 
 ### Branch Naming & Merge Request Rule
