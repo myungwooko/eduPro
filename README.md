@@ -100,7 +100,6 @@ Sequence of  merge request is (`feature-*`, `improve-*`, `fix-*`) -> `develop` -
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [fount logo]: <https://fount.co/wp-content/uploads/2017/07/fount-ci@2x.png>
    [python]: <https://www.python.org/>
    [Django]: <https://www.djangoproject.com/>
    [Django Rest Framework]: <http://www.django-rest-framework.org/>
