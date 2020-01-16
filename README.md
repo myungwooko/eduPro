@@ -23,8 +23,10 @@ $ pip install -r requirements.txt
 * if your installment stuck at "error: command 'gcc' failed with exit status 1"
 Use below command
 LDFLAGS=-L/usr/local/opt/openssl/lib pip install mysqlclient
-
-
+```
+Change directory
+```
+cd eduPro/
 ```
 
 Starting server through basic setting file like below.
@@ -84,7 +86,7 @@ When container was created properly, type the server address in your browser
 Document fot API is automatically created through Swagger.
 
 Swagger API documentation's address is `/api/swagger`.
-> 예) /api/swagger
+> Ex) /api/swagger
 
 
 ### Branch Naming & Merge Request Rule
