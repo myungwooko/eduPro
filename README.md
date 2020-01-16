@@ -23,8 +23,10 @@ $ pip install -r requirements.txt
 * if your installment stuck at "error: command 'gcc' failed with exit status 1"
 Use below command
 LDFLAGS=-L/usr/local/opt/openssl/lib pip install mysqlclient
-
-
+```
+Change directory
+```
+cd eduPro/
 ```
 
 Starting server through basic setting file like below.
